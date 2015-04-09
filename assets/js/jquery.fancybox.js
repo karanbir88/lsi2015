@@ -2015,6 +2015,17 @@
 		H.removeClass('fancybox-lock-test');
 
 		$("<style type='text/css'>.fancybox-margin{margin-right:" + (w2 - w1) + "px;}</style>").appendTo("head");
+        $(".video").fancybox({
+            maxWidth	: 800,
+            maxHeight	: 600,
+            fitToView	: false,
+            width		: '60%',
+            height		: '60%',
+            autoSize	: true,
+            closeClick	: false,
+            openEffect	: 'none',
+		    closeEffect	: 'none'
+        });
 	});
 
 }(window, document, jQuery));

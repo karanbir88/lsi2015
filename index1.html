@@ -39,8 +39,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="assets/css/style1.css" id="mainstyle" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style-blue.css" id="mainstyle" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/toastr.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/color-chooser.css" type="text/css" media="all" />
 
     
     <!--[if lt IE 9]>
@@ -50,13 +51,27 @@
 </head>
 
 <body id="index">
+<!--
+    <div id="style-switcher" class="" style="margin-left: 0px;">
+			<a href="#" class="style-toggle"><i class="fa fa-cog"></i></a>
+			<h6>Color palette</h6>
+			<ul class="template-set-color">
+				<li><a data-color="Orange" class="color orange" href="#" title="style"></a></li>
+				<li><a data-color="Blue" class="color blue" href="#" title="style-blue"></a></li>
+				<li><a data-color="Green" class="color green" href="#" title="style-green"></a></li>
+				<li><a data-color="Pink" class="color pink" href="#" title="style-pink"></a></li>
+				<li><a data-color="Berry" class="color berry" href="#" title="style-berry"></a></li>
+                <li><a data-color="Podar" class="color podar" href="#" title="style-podar"></a></li>
+			</ul>
+	</div>
+-->
     <!-- Preloader -->
     <div id="mask">
         <div id="loader"><img src="assets/img/preloader.gif" alt="preloader" /></div>
     </div>
     <header id="mobileheader" class="navigation-bar-header light visible-xs"></header>
     <!-- Hero Section -->
-    <section id="hero" class="dark">
+    <section id="hero" class="light">
       <div class="container">
         <div class="home-bg">
           <nav class="navigation navigation-social">
@@ -78,7 +93,7 @@
             <div class ="hero-big">  <img src="assets/img/logo-2015.png" alt="LSI" /></div> 
             <div class="hero-normal">Learning In India <strong>| Reimagined | Redefined | Reinvented</strong></div>
             <a href="#participate" class="btn btn-lg btn-3d"><i class="fa fa-play-circle fa-2x"></i> <span>Participate</span></a>
-<!--			<a href="#" class="btn btn-sm btn-default">Watch video</a>-->
+			<a href="https://www.youtube.com/embed/vreJq8JgTrE?vq=hd720&amp;rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1" class="btn btn-sm btn-default video fancybox.iframe">Watch video</a> 
           </div>          
         </div>
       </div>
@@ -179,6 +194,75 @@
       </div>
     </section>
     <!-- End About Section -->
+    <!-- Focus Section -->
+    <section id="focus" class="section dark">
+<!--    <div class="overlay">-->
+      <div class="container">
+	    <div class="icon-wrap"><span class="icon icon-active icon-education-science-05"></span></div>
+        <h3>Focus Areas</h3>
+        <div class="sub-title">The focus of LSI 2015 is infusing, managing, and sustaining innovation in an existing system by asking ourselves – is everything about the system wrong? Are there elements that seem to be working well and hence can be magnified or supported? What more is needed and how do we bring that in? Can we shift the conversations we have been having around change? </div>
+        <section class="nav-tabs-simple">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#opportunity" data-toggle="tab"><i class="icon icon-office-47"></i> Opportunities</a></li>
+            <li><a href="#leadership" data-toggle="tab"><i class="icon icon-socialmedia-02"></i> Roles</a></li>
+            <li><a href="#relationships" data-toggle="tab"><i class="icon icon-text-hierarchy-04"></i> Relationships</a></li>
+            <li><a href="#competence" data-toggle="tab"><i class="icon icon-education-science-10"></i> Competence</a></li>  
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="opportunity">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <img class="img-responsive" src="assets/img/focus/shifts-opportunity.jpg" alt="Shift in Opportunities" />
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Opportunities</h6>
+					<p>For innovation to flourish, every stakeholder needs the right environment and support. Ideas need motivated educators backed by resources. How does management create this space that runs across the school leader, teachers, and students? How desirable is experimentation? How does one encourage students to innovate?</p>
+				</div>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="leadership">
+              <article class="row">
+				<div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <h6>Shift in Roles</h6>
+                    <p>From being centrally-driven to democratizing initiative, educators have realized that change, individual and organizational, needs to be owned to be sustained. How do we build this ownership across stakeholders such that they own their successes and failures alike? How do we get the students to take ownership of their own learning?</p>
+				</div>
+				<div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <img class="img-responsive" src="assets/img/focus/shifts-leadership.jpg" alt="Shift in Leadership, Roles, and Responsibilities" />
+                </div>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="relationships">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <img class="img-responsive" src="assets/img/focus/shifts-relationship.jpg" alt="Shift in Relationships" />
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Relationships</h6>
+                 <p>Often the forces within and outside of a school and classroom are pulling in different directions, leading to effort but not outcomes. How does one build unity of vision and a culture of mutual respect and trust in the organization and classroom alike? How best can teachers and parents partner for the child’s well being?</p>
+                </div>
+              </article>
+              </div>
+                <div class="tab-pane fade" id="competence">
+              <article class="row">
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Competence</h6>
+                 <p>Changing times need newer skills and competencies for teachers and students alike, which technology has the power to enable. How does one personalize learning for students, especially with large numbers? How do schools get the best teaching talent and ensure continuous professional development? Where does technology step in to make things better?</p>
+                 <p>While the system has not broken down, it could do with some oiling. We look at what parts need repair and which are those that can be better utilized by refurbishing them.</p>
+                </div>
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <img class="img-responsive" src="assets/img/focus/shifts-competence.jpg" alt="Shift in Competence" />
+                </div>  
+              </article>
+                </div>
+          </div>
+          </section>    
+            </div>
+<!--        </div>-->
+        </section>
+    <!-- End Focus Section -->
     <!-- Stat Section -->
     <section id="stat" class="section light">
       <div class="overlay"></div>
@@ -187,17 +271,17 @@
           <div class="col-md-3 col-sm-3 col-xs-6">
             <div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
               <div class="stat"><span class="value" data-from="0" data-to="8">8</span>+</div>
-              <div class="stat-info">hours</div>
+              <div class="stat-info">change-makers</div>
               <hr />
-              <p class="small">Of thought-provoking sessions, workshops and discussions.</p>
+              <p class="small">Including school leaders, innovators, teachers, students and parents</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
             <div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
               <div class="stat"><span class="value" data-from="0" data-to="100">100</span>+</div>
-              <div class="stat-info">Change-makers</div>
+              <div class="stat-info">hours</div>
               <hr />
-              <p class="small">Including school leaders, innovators, teachers, students and parents.</p>
+              <p class="small">Of thought-provoking sessions, workshops and discussions</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
@@ -205,7 +289,7 @@
               <div class="stat"><span class="value" data-from="0" data-to="4">4</span></div>
               <div class="stat-info">themes</div>
               <hr />
-              <p class="small">To address critical questions facing educators today.</p>
+              <p class="small">To address critical questions facing educators today</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
@@ -213,7 +297,7 @@
               <div class="stat"><span class="value" data-from="0" data-to="3">3</span></div>
               <div class="stat-info">years</div>
               <hr />
-              <p class="small">Since its inception, bringing together dynamic education leaders and practitioners.</p>
+              <p class="small">Since its inception, bringing together dynamic education leaders and practitioners</p>
             </div>
           </div>
         </div>
@@ -378,7 +462,7 @@
                                 <div class="panel-title">
                                     <div class="time"> <i class="fa fa-clock-o"></i> 11:10 AM </div>
                                     <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemFive" class="collapsed">
-                                        Student Performance
+                                        Different Strokes: Rhythms of Thoughts
                                         <div class="pull-right fa fa-angle-up"></div>
                                         <div class="pull-right fa fa-angle-down"></div>
                                     </a>
@@ -499,7 +583,7 @@
                                 <div class="panel-title">
                                     <div class="time"> <i class="fa fa-clock-o"></i> 1:50 PM </div>
                                     <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemTen" class="collapsed">
-                                        Student Performance
+                                        When the Laughter Stops
                                         <div class="pull-right fa fa-angle-up"></div>
                                         <div class="pull-right fa fa-angle-down"></div>
                                     </a>
@@ -508,7 +592,7 @@
                             <div id="itemTen" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <article>
-                                        <p class="author"><i class="fa fa-graduation-cap"></i>The students of <a href="http://rnpodarschool.com" target="_blank"> <strong>R.N. Podar School</strong></a> perform on the theme of Different Strokes: When the laughter stops.</p>
+                                        <p class="author"><i class="fa fa-smile-o"></i>A standup comedy display.</p>
                                     </article>
                                 </div>
                             </div>
@@ -704,7 +788,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
-        <h3>Top speakers</h3>
+        <h3>Speakers</h3>
         <div class="sub-title">Look who's attending this year...</div>
         <br />
         <br />
@@ -762,28 +846,74 @@
             </div>
           </div>
 
-<!--
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-              <div class="img-wrapper">
-                <img src="assets/img/speaker/speaker-4.jpg" class="img-responsive img-circle" alt="speaker-4" />
-              </div>
-              <div class="name">Martin Freeman</div>
-              <div class="sub">CFO Google</div>
-              <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="social-link">
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-twitter"></span></a>
-                <a href="#"><span class="fa fa-google-plus"></span></a>
-              </div>
+              <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="1500">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-4-gaurav-podar.png" class="img=responsive img-circle" alt="Gaurav Podar">
+                    </div>
+                <div class="small-name">Mr. Gaurav Podar</div>
+                <div class="sub">Speaker</div>
+                <div class="small">Managing Director, Podar Education Network</div>
+                    <div class="social-link">
+                        <a href="http://www.podareducation.org" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+<!--                        <a href="https://in.linkedin.com/pub/neharika-vohra/7/553/b18" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>-->
+                    </div>
+                </div>
             </div>
-          </div>
--->
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="2000">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-7-neharika-vohra.png" class="img=responsive img-circle" alt="Neharika Vohra">
+                    </div>
+                <div class="small-name">Prof. Neharika Vohra</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Professor, Organizational Behaviour, IIM Ahmedabad</div>
+                    <div class="social-link">
+                        <a href="http://www.iimahd.ernet.in/faculty-and-research/faculty-profile.html&amp;user_id=92" target="_blank" title="Company Website"><span class="fa fa-globe"></span></a>
+                        <a href="https://in.linkedin.com/pub/neharika-vohra/7/553/b18" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="2500">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-5-lohit-sahu.png" class="img=responsive img-circle" alt="Lohit Sahu">
+                    </div>
+                <div class="small-name">Mr. Lohit Sahu</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Director, Phyzok Learning Solutions LLP</div>
+                    <div class="social-link">
+                        <a href="http://phyzok.com/" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+                        <a href="https://twitter.com/lohitsahu" target="_blank" title="Twitter"><span class="fa fa-twitter"></span></a>
+                        <a href="https://www.facebook.com/sahulohit" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a>
+                        <a href="https://in.linkedin.com/in/lohit" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+<!--            <ul class="nav nav-tabs span2 clearfix">-->
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="3000">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-6-maya-menon.png" class="img=responsive img-circle" alt="Maya Menon">
+                    </div>
+                <div class="small-name">Mrs. Maya Menon</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Founder-Director, Teacher Foundation</div>
+                    <div class="social-link">
+                        <a href="http://www.teacherfoundation.org" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+                        <a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank" title="Blog"><span class="fa fa-rss"></span></a>
+                        <a href="https://www.linkedin.com/profile/view?id=1135166" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+            
         </section>
+<!--
         <div class="btn-wrapper">
           <a href="#advisors" class="btn btn-sm btn-default">See all speakers</a>
         </div>
       </div>
+-->
     </section>
     <!-- End Speakers Section -->
     <!-- Advisory Board Section -->
@@ -808,7 +938,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/speaker-6-maya-menon.png" class="img=responsive img-circle" alt="Maya Menon" />
                     </div>
@@ -822,7 +952,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="1000">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-8-syed-sultan-ahmed.png" class="img=responsive img-circle" alt="Syed Sultan Ahmed" />
                     </div>
@@ -840,7 +970,7 @@
             <br />
             <br />
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="1500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-9-ramya-venkataraman.jpg" class="img=responsive img-circle" alt="Ramya Venkataraman" />
                     </div>
@@ -853,7 +983,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="2000">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-10-usha-pandit.png" class="img=responsive img-circle" alt="Usha Pandit" />
                     </div>
@@ -867,7 +997,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="2500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-11-willibrord-george.png" class="img=responsive img-circle" alt="Willibrord George" />
                     </div>
@@ -1167,6 +1297,13 @@
       </div>
     </section>
     <!-- End Sponsors Section -->
+<!--
+    <section id="theme" class="section dark" style="background-color: #f0f0f0 !important;">></section>
+        <div class="container">
+            
+        </div>
+-->
+        
     <!-- Map Section -->
     <section id="map" class="dark">
 		<div id="canvas-map"></div>
@@ -1213,9 +1350,6 @@
 		</div>
     </section>
     <!-- End Map Section -->
-    <footer id="footer">
-
-    </footer>
     
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 
@@ -1237,6 +1371,7 @@
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
     <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="assets/js/color-chooser.js"></script>
     <script type="text/javascript" src="https://addthisevent.com/libs/ate-latest.min.js"></script>
     <script type="text/javascript">
         addthisevent.settings({
@@ -1250,7 +1385,32 @@
 	            facebook	: {show:true, text:"Facebook Calendar"}
 });
 </script>
+    <!-- Footer Section -->
 
+    <section id="register" class="section light">
+      <div class="overlay">
+      <div class="container">
+        <article class="article-big animated hiding" data-animation="fadeInUp" data-delay="0">
+<!--          <h5>Register to a Ventcamp right now!</h5>-->
+         <nav class="navigation navigation-social">
+            <ul class="navigation-bar">
+              <li><a href="https://twitter.com/learnshift" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+              <li><a href="https://www.facebook.com/LearnShiftIndia" target="_blank" title="Facebook"><span class="fa fa-facebook fa-2x"></span></a>
+             <!-- <li><a href="#"><span class="fa fa-github"></span></a> -->
+              <li><a href="https://www.youtube.com/channel/UCQHrH5gPFfdGiKheYTmo3Vg" target="_blank"><span class="fa fa-youtube fa-2x"></span></a>
+              <li><a href="https://plus.google.com/+LearnShiftIndia-LSI" target="_blank"><span class="fa fa-google-plus fa-2x"></span></a>
+            </ul>
+          </nav>
+        </article>
+        © Copyright 2010-2020   
+      </div>
+     </div>
+    </section>
+
+    <!-- End Footer Section -->
+        
+        
+        
 <!-- Theme -->
 <style type="text/css">
 

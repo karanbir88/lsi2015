@@ -39,8 +39,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="assets/css/style1.css" id="mainstyle" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style-blue.css" id="mainstyle" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/toastr.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/color-chooser.css" type="text/css" media="all" />
 
     
     <!--[if lt IE 9]>
@@ -50,13 +51,27 @@
 </head>
 
 <body id="index">
+<!--
+    <div id="style-switcher" class="" style="margin-left: 0px;">
+			<a href="#" class="style-toggle"><i class="fa fa-cog"></i></a>
+			<h6>Color palette</h6>
+			<ul class="template-set-color">
+				<li><a data-color="Orange" class="color orange" href="#" title="style"></a></li>
+				<li><a data-color="Blue" class="color blue" href="#" title="style-blue"></a></li>
+				<li><a data-color="Green" class="color green" href="#" title="style-green"></a></li>
+				<li><a data-color="Pink" class="color pink" href="#" title="style-pink"></a></li>
+				<li><a data-color="Berry" class="color berry" href="#" title="style-berry"></a></li>
+                <li><a data-color="Podar" class="color podar" href="#" title="style-podar"></a></li>
+			</ul>
+	</div>
+-->
     <!-- Preloader -->
     <div id="mask">
         <div id="loader"><img src="assets/img/preloader.gif" alt="preloader" /></div>
     </div>
     <header id="mobileheader" class="navigation-bar-header light visible-xs"></header>
     <!-- Hero Section -->
-    <section id="hero" class="dark">
+    <section id="hero" class="light">
       <div class="container">
         <div class="home-bg">
           <nav class="navigation navigation-social">
@@ -64,7 +79,7 @@
               <li><a href="https://twitter.com/learnshift" target="_blank"><span class="fa fa-twitter"></span></a>
               <li><a href="https://www.facebook.com/LearnShiftIndia" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a>
              <!-- <li><a href="#"><span class="fa fa-github"></span></a> -->
-              <li><a href="https://www.youtube.com/channel/UCQHrH5gPFfdGiKheYTmo3Vg" target="_blank"><span class="fa fa-youtube"></span></a>
+              <li><a href="https://www.youtube.com/playlist?list=PLzZjVjL3Z_2Xt_zLJudr_9SqnSVs64057" target="_blank"><span class="fa fa-youtube"></span></a>
               <li><a href="https://plus.google.com/+LearnShiftIndia-LSI" target="_blank"><span class="fa fa-google-plus"></span></a>
              <!-- <li><a href="#"><span class="fa fa-instagram"></span></a> -->
             </ul>
@@ -78,7 +93,9 @@
             <div class ="hero-big">  <img src="assets/img/logo-2015.png" alt="LSI" /></div> 
             <div class="hero-normal">Learning In India <strong>| Reimagined | Redefined | Reinvented</strong></div>
             <a href="#participate" class="btn btn-lg btn-3d"><i class="fa fa-play-circle fa-2x"></i> <span>Participate</span></a>
-<!--			<a href="#" class="btn btn-sm btn-default">Watch video</a>-->
+			<a href="https://www.youtube.com/embed/vreJq8JgTrE?vq=hd720&amp;rel=0&amp;controls=1&amp;showinfo=0&amp;autoplay=1" class="btn btn-sm btn-default video fancybox.iframe">Watch video</a> 
+            <br/>
+            <div class="hero-normal" style="font-size:16px">Check out the highlights from <a href="https://plus.google.com/photos/+LearnShiftIndia-LSI/albums/6130427727450062849" target="_blank" style="color:#eaba3b">LSI 2012 (Delhi Chapter)</a> and <a href="https://plus.google.com/photos/+LearnShiftIndia-LSI/albums/6130425943190576433" style="color:#eaba3b" target="_blank">LSI 2013 (Mumbai Chapter)</a></div>  
           </div>          
         </div>
       </div>
@@ -177,8 +194,86 @@
           </div>
         </section>
       </div>
+    <hr>
     </section>
     <!-- End About Section -->
+    <!-- Focus Section -->
+    <section id="focus" class="section dark">
+<!--    <div class="overlay">-->
+      <div class="container">
+	    <div class="icon-wrap"><span class="icon icon-active icon-education-science-05"></span></div>
+        <h3>Focus Areas</h3>
+        <div class="sub-title">The focus of LSI 2015 is infusing, managing, and sustaining innovation in an existing system by asking ourselves – is everything about the system wrong? Are there elements that seem to be working well and hence can be magnified or supported? What more is needed and how do we bring that in? Can we shift the conversations we have been having around change? </div>
+          <br />
+          <br />
+        <section class="nav-tabs-simple">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#opportunity" data-toggle="tab"><i class="icon icon-office-47"></i> Opportunities</a></li>
+            <li><a href="#leadership" data-toggle="tab"><i class="icon icon-socialmedia-02"></i> Leadership</a></li>
+            <li><a href="#relationships" data-toggle="tab"><i class="icon icon-text-hierarchy-04"></i> Relationships</a></li>
+            <li><a href="#competence" data-toggle="tab"><i class="icon icon-education-science-10"></i> Competence</a></li>  
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="opportunity">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                   <a href="assets/img/focus/shifts-opportunity.jpg" class="fancybox" data-fancybox-group="focus">
+                    <img class="img-responsive" src="assets/img/focus/shifts-opportunity.jpg" alt="Shift in Opportunities" />
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Opportunities</h6>
+					<p>Today, the Indian education system is on path of innovation and change. Opportunities turn into initiatives when a participant in a system is prepared to receive and act upon them. Schools and classrooms where a person feels encouraged to question and experiment have come up with path-breaking initiatives. It has been observed that teachers allowed with more flexibility can provide more than just textbook knowledge, schools with more space can give more than just academics, and students with a little more encouragement can maximize their potential. Experimentation in the right direction has helped students understand better and shown promising results.</p>
+				</div>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="leadership">
+              <article class="row">
+				<div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <h6>Shift in Leadership, Roles and Responsibilities</h6>
+                    <p>India is known as a country of pilots. Several hundred initiatives are taken up across schools every year, but very few sustain. One of the critical factors amiss, even where flexibility is present, seems to be lack of ownership. Cases where there has been system-wide ownership have proven to be successful. As we seek to decentralize the learning process, it becomes imperative that we redefine roles and responsibilities among various stakeholders of the education system, allowing each person to be a leader in her own right. There needs to be comfort with failure and rejection to be able to learn, iterate and make innovations work.</p>
+				</div>
+				<div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInRight" data-delay="500">
+                 <a href="assets/img/focus/shifts-leadership.jpg" class="fancybox" data-fancybox-group="focus">
+                  <img class="img-responsive" src="assets/img/focus/shifts-leadership.jpg" alt="Shift in Leadership, Roles and Responsibilities" />
+                 </a>
+                </div>
+              </article>
+            </div>
+            <div class="tab-pane fade" id="relationships">
+              <article class="row">
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <a href="assets/img/focus/shifts-relationship.jpg" class="fancybox" data-fancybox-group="focus">
+                      <img class="img-responsive" src="assets/img/focus/shifts-relationship.jpg" alt="Shift in Relationships" />                       </a>
+                </div>
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Relationships</h6>
+                 <p>Education as a process concerns all human relations that the learner associates with. Each of these influences the learning process to varying degrees, owing to varying ideologies and methodologies. Lack of synchronization between the different gears leads to accidental building, rebuilding, and demolition of concepts rather than their desired reinforcement. Cases where the students, teachers, management and parents have worked mutually closely have turned out to be considerably efficient and successful over those where all have worked closely with the learner, but in isolation with respect to each other.</p>
+                </div>
+              </article>
+              </div>
+                <div class="tab-pane fade" id="competence">
+              <article class="row">
+                <div class="col-md-6 col-sm-6 text-left animated hiding" data-animation="fadeInRight" data-delay="500">
+                  <h6>Shift in Competence</h6>
+                 <p>A dynamic world calls for mechanisms that can build relevant competencies in students and teachers alike to face newer challenges. Developments in learning pedagogies coupled with advancements in institutional technology have paved way for game-changing learning models, the flipped learning being one such case in point. We need personalized learning models that are able to instill newer competencies with the assistance of technology to ensure better learning outcomes for students. Research has shown that the quality of learning is most affected by the quality of teachers and instruction. Schools need ways to source, build, and continuously upgrade their teaching talent.</p>
+                </div>
+                <div class="col-md-5 col-sm-5 animated hiding" data-animation="fadeInLeft" data-delay="500">
+                  <a href="assets/img/focus/shifts-competence.jpg" class="fancybox" data-fancybox-group="focus">
+                    <img class="img-responsive" src="assets/img/focus/shifts-competence.jpg" alt="Shift in Competence" />
+                  </a>
+                </div>  
+              </article>
+                </div>
+          </div>
+          </section>    
+            </div>
+<!--        </div>-->
+        </section>
+    <!-- End Focus Section -->
     <!-- Stat Section -->
     <section id="stat" class="section light">
       <div class="overlay"></div>
@@ -186,18 +281,18 @@
         <div class="row">
           <div class="col-md-3 col-sm-3 col-xs-6">
             <div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
-              <div class="stat"><span class="value" data-from="0" data-to="8">8</span>+</div>
-              <div class="stat-info">hours</div>
+              <div class="stat"><span class="value" data-from="0" data-to="100">100</span>+</div>
+              <div class="stat-info">change-makers</div>
               <hr />
-              <p class="small">Of thought-provoking sessions, workshops and discussions.</p>
+              <p class="small">Including school leaders, innovators, teachers, students and parents</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
             <div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
-              <div class="stat"><span class="value" data-from="0" data-to="100">100</span>+</div>
-              <div class="stat-info">Change-makers</div>
+              <div class="stat"><span class="value" data-from="0" data-to="8">8</span>+</div>
+              <div class="stat-info">hours</div>
               <hr />
-              <p class="small">Including school leaders, innovators, teachers, students and parents.</p>
+              <p class="small">Of thought-provoking sessions, workshops and discussions</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
@@ -205,7 +300,7 @@
               <div class="stat"><span class="value" data-from="0" data-to="4">4</span></div>
               <div class="stat-info">themes</div>
               <hr />
-              <p class="small">To address critical questions facing educators today.</p>
+              <p class="small">To address critical questions facing educators today</p>
             </div>
           </div>
           <div class="col-md-3 col-sm-3 col-xs-6">
@@ -213,7 +308,7 @@
               <div class="stat"><span class="value" data-from="0" data-to="3">3</span></div>
               <div class="stat-info">years</div>
               <hr />
-              <p class="small">Since its inception, bringing together dynamic education leaders and practitioners.</p>
+              <p class="small">Since its inception, bringing together dynamic education leaders and practitioners</p>
             </div>
           </div>
         </div>
@@ -378,7 +473,7 @@
                                 <div class="panel-title">
                                     <div class="time"> <i class="fa fa-clock-o"></i> 11:10 AM </div>
                                     <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemFive" class="collapsed">
-                                        Student Performance
+                                        Different Strokes: Rhythms of Thoughts                                        
                                         <div class="pull-right fa fa-angle-up"></div>
                                         <div class="pull-right fa fa-angle-down"></div>
                                     </a>
@@ -454,7 +549,7 @@
                             <div id="itemEight" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <article>
-                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Mrs. Maya Menon </strong></a>is the Founder-Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
+                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Ms. Maya Menon </strong></a>is the Founder-Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
                                     </article>
                                 </div>
                             </div>
@@ -479,7 +574,7 @@
                             <div id="itemEight" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <article>
-                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Mrs. Maya Menon </strong></a>is the Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
+                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Ms. Maya Menon </strong></a>is the Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
 
                                     </article>
                                 </div>
@@ -493,13 +588,13 @@
 <!--                        Each talk begins here-->
                         <div class="panel panel-default">
                             <div class="speaker-wrapper">
-                                <img src="assets/img/speakers/student-performance.png" class="img-responsive img-circle" alt="Student Performance" />
+                                <img src="assets/img/speakers/comedy-act.png" class="img-responsive img-circle" alt="When the Laughter Stops" />
                             </div>
                             <div class="panel-heading">
                                 <div class="panel-title">
                                     <div class="time"> <i class="fa fa-clock-o"></i> 1:50 PM </div>
                                     <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemTen" class="collapsed">
-                                        Student Performance
+                                        Different Strokes: When the Laughter Stops
                                         <div class="pull-right fa fa-angle-up"></div>
                                         <div class="pull-right fa fa-angle-down"></div>
                                     </a>
@@ -508,7 +603,7 @@
                             <div id="itemTen" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <article>
-                                        <p class="author"><i class="fa fa-graduation-cap"></i>The students of <a href="http://rnpodarschool.com" target="_blank"> <strong>R.N. Podar School</strong></a> perform on the theme of Different Strokes: When the laughter stops.</p>
+                                        <p class="author"><i class="fa fa-smile-o"></i><a href="https://about.me/amoghranadive" target="_blank">Mr. Amogh Ranadive,</a> The WeirdAss Comedy</p>
                                     </article>
                                 </div>
                             </div>
@@ -555,9 +650,31 @@
                                     <article>
                                         <p Voices from the other></p>
                                         <ul class="sub-list">
-						                      <li><i class="icon icon-education-science-06"></i>Panel I: Students</li>
-                                              <li><i class="icon icon-education-science-08"></i>Panel II: Teachers</li>
+						                      <li><i class="icon icon-education-science-06"></i>Panel I: Students, Moderated by Mr. Syed Sultan Ahmed</li>
+                                              <li><i class="icon icon-education-science-08"></i>Panel II: Teacher, School Leader, Influencer, Moderated by Mr. Simon Breakspear</li>
 					                    </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="speaker-wrapper">
+                                <img src="assets/img/speakers/speaker-8-sanjana-janardhanan.png" class="img-responsive img-circle" alt="Sanjana Janardhanan" />
+                            </div>
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <div class="time"> <i class="fa fa-clock-o"></i> 3:45 PM </div>
+                                    <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemFourteen" class="collapsed">
+                                        Ashoka Innovators for Public
+                                        <div class="pull-right fa fa-angle-up"></div>
+                                        <div class="pull-right fa fa-angle-down"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="itemFourteen" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <article>
+                                        <p class="author"><a href="http://india.ashoka.org/our-team" target="_blank"><strong><i class="fa fa-user"></i>Ms. Sanjana Janardhanan </strong></a> is part of the Ashoka Changemaker schools.</p>
                                     </article>
                                 </div>
                             </div>
@@ -582,7 +699,7 @@
                             <div id="itemThirteen" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <article>
-                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Mrs. Maya Menon </strong></a>is the Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
+                                        <p class="author"><a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank"><strong><i class="fa fa-user"></i>Ms. Maya Menon </strong></a>is the Director of <a href="hhttp://teacherfoundation.org/" target="_blank">Teacher Foundation.</a></p>
                                     </article>
                                 </div>
                             </div>
@@ -594,7 +711,7 @@
                             </div>
                             <div class="panel-heading">
                                 <div class="panel-title">
-                                    <div class="time"> <i class="fa fa-clock-o"></i> 5:30 PM </div>
+                                    <div class="time"> <i class="fa fa-clock-o"></i> 4:30 PM </div>
                                     <a data-toggle="collapse" data-parent="#panelTimelineTwo" href="#itemThirteen"class="collapsed">
                                         Closing: Framework for Change
                                         <div class="pull-right fa fa-angle-up"></div>
@@ -704,7 +821,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="icon-wrap"><span class="icon icon-active icon-multimedia-12"></span></div>
-        <h3>Top speakers</h3>
+        <h3>Speakers</h3>
         <div class="sub-title">Look who's attending this year...</div>
         <br />
         <br />
@@ -762,28 +879,74 @@
             </div>
           </div>
 
-<!--
-          <div class="col-md-3 col-sm-3 col-xs-6">
-            <div class="speaker-item animated hiding" data-animation="fadeInUp" data-delay="1500">
-              <div class="img-wrapper">
-                <img src="assets/img/speaker/speaker-4.jpg" class="img-responsive img-circle" alt="speaker-4" />
-              </div>
-              <div class="name">Martin Freeman</div>
-              <div class="sub">CFO Google</div>
-              <p class="small">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <div class="social-link">
-                <a href="#"><span class="fa fa-facebook"></span></a>
-                <a href="#"><span class="fa fa-twitter"></span></a>
-                <a href="#"><span class="fa fa-google-plus"></span></a>
-              </div>
+              <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="1500">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-4-gaurav-podar.png" class="img=responsive img-circle" alt="Gaurav Podar">
+                    </div>
+                <div class="small-name">Mr. Gaurav Podar</div>
+                <div class="sub">Speaker</div>
+                <div class="small">Managing Director, Podar Education Network</div>
+                    <div class="social-link">
+                        <a href="http://www.podareducation.org" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+<!--                        <a href="https://in.linkedin.com/pub/neharika-vohra/7/553/b18" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>-->
+                    </div>
+                </div>
             </div>
-          </div>
--->
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="2000">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-7-neharika-vohra.png" class="img=responsive img-circle" alt="Neharika Vohra">
+                    </div>
+                <div class="small-name">Prof. Neharika Vohra</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Professor, Organizational Behaviour, IIM Ahmedabad</div>
+                    <div class="social-link">
+                        <a href="http://www.iimahd.ernet.in/faculty-and-research/faculty-profile.html&amp;user_id=92" target="_blank" title="Company Website"><span class="fa fa-globe"></span></a>
+                        <a href="https://in.linkedin.com/pub/neharika-vohra/7/553/b18" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="2500">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-5-lohit-sahu.png" class="img=responsive img-circle" alt="Lohit Sahu">
+                    </div>
+                <div class="small-name">Mr. Lohit Sahu</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Director, Phyzok Learning Solutions LLP</div>
+                    <div class="social-link">
+                        <a href="http://phyzok.com/" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+                        <a href="https://twitter.com/lohitsahu" target="_blank" title="Twitter"><span class="fa fa-twitter"></span></a>
+                        <a href="https://www.facebook.com/sahulohit" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a>
+                        <a href="https://in.linkedin.com/in/lohit" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+<!--            <ul class="nav nav-tabs span2 clearfix">-->
+            <div class="col-md-3 col-md-3 col-md-3 col-md-3">
+                <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" datadelay="3000">
+                    <div class="img-wrapper">
+                        <img src="assets/img/speakers/speaker-6-maya-menon.png" class="img=responsive img-circle" alt="Maya Menon">
+                    </div>
+                <div class="small-name">Ms. Maya Menon</div>
+                <div class="sub">Speaker</div>
+                    <div class="small">Founder-Director, Teacher Foundation</div>
+                    <div class="social-link">
+                        <a href="http://www.teacherfoundation.org" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
+                        <a href="http://mayamenon.teacherfoundation.org/p/maya-menon.html" target="_blank" title="Blog"><span class="fa fa-rss"></span></a>
+                        <a href="https://www.linkedin.com/profile/view?id=1135166" target="_blank" title="LinkedIn"><span class="fa fa-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+            
         </section>
+<!--
         <div class="btn-wrapper">
           <a href="#advisors" class="btn btn-sm btn-default">See all speakers</a>
         </div>
       </div>
+-->
     </section>
     <!-- End Speakers Section -->
     <!-- Advisory Board Section -->
@@ -808,11 +971,11 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/speaker-6-maya-menon.png" class="img=responsive img-circle" alt="Maya Menon" />
                     </div>
-                <div class="name">Mrs. Maya Menon</div>
+                <div class="name">Ms. Maya Menon</div>
                 <div class="sub">Founder-Director, Teacher Foundation</div>
                     <div class="social-link">
                         <a href="www.teacherfoundation.org" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
@@ -822,7 +985,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="1000">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-8-syed-sultan-ahmed.png" class="img=responsive img-circle" alt="Syed Sultan Ahmed" />
                     </div>
@@ -840,11 +1003,11 @@
             <br />
             <br />
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="1500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-9-ramya-venkataraman.jpg" class="img=responsive img-circle" alt="Ramya Venkataraman" />
                     </div>
-                <div class="name">Mrs. Ramya Venkataraman</div>
+                <div class="name">Ms. Ramya Venkataraman</div>
                 <div class="sub">Founder, CENTA</div>
                     <div class="social-link">
                         <a href="http://centa.org/" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
@@ -853,11 +1016,11 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="2000">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-10-usha-pandit.png" class="img=responsive img-circle" alt="Usha Pandit" />
                     </div>
-                <div class="name">Mrs. Usha Pandit</div>
+                <div class="name">Ms. Usha Pandit</div>
                 <div class="sub">Founder CEO, Mindsprings</div>
                     <div class="social-link">
                         <a href="http://www.mindsprings.in/" target="_blank" title="Company Website"><span class="fa fa-briefcase"></span></a>
@@ -867,7 +1030,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-4 col-md-4">
-                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="0">
+                <div class="speaker-item animated hiding" data-animation="fadeInUp" datadelay="2500">
                     <div class="img-wrapper">
                         <img src="assets/img/speakers/advisor-11-willibrord-george.png" class="img=responsive img-circle" alt="Willibrord George" />
                     </div>
@@ -1141,23 +1304,15 @@
     <section id="sponsors" class="section dark">
       <div class="container">
         <div class="icon-wrap"><span class="icon icon-active icon-documents-bookmarks-12"></span></div>
-        <h3>Sponsors</h3>
+        <h3>Concept Sponsors</h3>
         <div class="sub-title">We thank our sponsors for helping us host this event.</div>
 		<br/>
          <div class="row">
           <ul class="list-inline">
-            <li><a href="#" target="_blank"><img src="assets/img/sponsors/sponsor-logo-1-phyzok.png" alt="Phyzok" /></a></li> 
-<!--
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-2.jpg" alt="sponsor-2" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-3.jpg" alt="sponsor-3" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-4.jpg" alt="sponsor-4" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-5.jpg" alt="sponsor-5" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-0.jpg" alt="sponsor-6" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-7.jpg" alt="sponsor-7" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-8.jpg" alt="sponsor-8" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-9.jpg" alt="sponsor-9" /></a></li> 
-            <li><a href="#" target="_blank"><img src="assets/img/sponsor/sponsor-logo-0.jpg" alt="sponsor-10" /></a></li> 
--->
+            <li><a href="http://phyzok.com" target="_blank"><img src="assets/img/sponsors/sponsor-logo-1-phyzok.png" alt="Phyzok" /></a></li> 
+            <li><a href="http://yrals.com" target="_blank"><img src="assets/img/sponsors/sponsor-logo-2-yrals.png" alt="Yrals" /></a></li> 
+            <li><a href="http://www.aakash.ac.in/" target="_blank"><img src="assets/img/sponsors/sponsor-logo-3-aakash.png" alt="Aakash" /></a></li> 
+            <li><a href="http://www.mentormagazine.net/" target="_blank"><img src="assets/img/sponsors/sponsor-logo-4-mentor.png" alt="Mentor" /></a></li> 
           </ul>
 		
 		 <div class="btn-wrapper">
@@ -1166,7 +1321,40 @@
 		</div> 
       </div>
     </section>
-    <!-- End Sponsors Section -->
+    <!-- End Sponsors Section --> 
+    <!-- Start Testimonial Section    -->
+    <section id="testimonials" class="section light">
+      <div class="overlay"></div>
+      <div class="container">
+        <h3 style="margin-top:35px;">Testimonials</h3>
+        <br>
+        <br>
+        <section class="row">
+          <div class="col-md-4 col-sm-4 col-xs-6" style="margin-bottom: -10%">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="0">   
+              <p class="small">I do appreciate the initiative and the issues that you have identified are relevant to our national objective of providing universal access to good quality school education.</p>
+            <div class="name">Smt. Radha Chauhan</div>
+                <div class="sub" style="color: #2da9ff;">Joint Secretary, School Education, MHRD<br><br><br></div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6" style="margin-bottom: -10%">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="500">
+            <p class="small">The LearnShift Conference brought together a diverse group of education leaders to think together about a joint vision for the Indian education system. It was energizing to interact with this group and think about the bigger picture in education.</p>
+             <div class="name">Azad Oommen</div>
+             <div class="sub" style="color: #2da9ff;">Executive Director, Central Square Foundation<br><br><br></div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs"></div>
+          <div class="col-md-4 col-sm-4 col-xs-6" style="margin-bottom: -10%">
+            <div class="speaker-item animated fadeInUp visible" data-animation="fadeInUp" data-delay="1000">
+               <p class="small">LearnShift is a great platform for exchanging ideas with some of the pioneers in Indian education ecosystem. It facilitates relationships and mentorships that are helping startups like Zaya tackle some of the toughest problems in Indian education.</p>
+            <div class="name">Neil D’Souza</div>
+            <div class="sub" style="color: #2da9ff;">Founder, Zaya<br><br><br></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
     <!-- Map Section -->
     <section id="map" class="dark">
 		<div id="canvas-map"></div>
@@ -1213,9 +1401,6 @@
 		</div>
     </section>
     <!-- End Map Section -->
-    <footer id="footer">
-
-    </footer>
     
     <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 
@@ -1237,6 +1422,7 @@
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
     <script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+    <script type="text/javascript" src="assets/js/color-chooser.js"></script>
     <script type="text/javascript" src="https://addthisevent.com/libs/ate-latest.min.js"></script>
     <script type="text/javascript">
         addthisevent.settings({
@@ -1250,7 +1436,32 @@
 	            facebook	: {show:true, text:"Facebook Calendar"}
 });
 </script>
+    <!-- Footer Section -->
 
+    <section id="register" class="section light">
+      <div class="overlay">
+      <div class="container">
+        <article class="article-big animated hiding" data-animation="fadeInUp" data-delay="0">
+<!--          <h5>Register to a Ventcamp right now!</h5>-->
+         <nav class="navigation navigation-social">
+            <ul class="navigation-bar">
+              <li><a href="https://twitter.com/learnshift" target="_blank"><span class="fa social-page fa-twitter fa-2x"></span></a>
+              <li><a href="https://www.facebook.com/LearnShiftIndia" target="_blank" title="Facebook"><span class="fa social-page fa-facebook fa-2x"></span></a>
+             <!-- <li><a href="#"><span class="fa fa-github"></span></a> -->
+              <li><a href="https://www.youtube.com/playlist?list=PLzZjVjL3Z_2Xt_zLJudr_9SqnSVs64057" target="_blank"><span class="fa  social-page fa-youtube fa-2x"></span></a>
+              <li><a href="https://plus.google.com/+LearnShiftIndia-LSI" target="_blank"><span class="fa social-page fa-google-plus fa-2x"></span></a>
+            </ul>
+          </nav>
+        </article>
+        © Copyright 2010-2020   
+      </div>
+     </div>
+    </section>
+
+    <!-- End Footer Section -->
+        
+        
+        
 <!-- Theme -->
 <style type="text/css">
 
